@@ -1,0 +1,44 @@
+.home{
+    background-image: url(../images/Home/Layer_.png);
+    height: 100vh;
+}
+
+.navList{
+    margin-left: 25px;
+    color: black;
+    cursor: pointer;
+}
+
+
+.para1{
+    /* height: auto; */
+    width: 30%;
+    position: relative;
+    top: 10%;
+    left: 3%;
+}
+
+.rectangle{
+    background-image: url(../images/Home/Rectangle.png);
+    height: 25%;
+    width: 45%;
+    position: relative;
+    top: 15%;
+    left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 22px;
+    /* padding: 2%; */
+}
+
+.yes, .no{
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px 5px 15px;
+    background: #FF6400;
+    cursor: pointer;
+    margin-left: 10px;
+}
+

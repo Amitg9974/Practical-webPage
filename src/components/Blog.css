@@ -1,0 +1,78 @@
+.blog{
+    background-image: url(../images/Blog/Rectangletestimonial-bg.png);
+    /* height: 100vh; */
+}
+
+.t_monial{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.blog-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 10pc;
+}
+
+.blog-arrow p {
+    color:  #3D5FDD;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.blog-page{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding-left: 17%;
+    padding-bottom: 2pc;
+    /* padding-top: 10pc; */
+    overflow-x: auto; 
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch; 
+    
+    /* Hides scrollbar for Internet Explorer, Edge, and Firefox */
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+
+    /* Hides scrollbar for Chrome, Safari and Opera */
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+
+.blog-post {
+    flex: 0 0 auto;
+    width: 26%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+}
+
+.blog-post h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.blog-post p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 0px;
+}
+
+.blog-post + .blog-post {
+    margin-top: 40px;
+}
+
+
+
